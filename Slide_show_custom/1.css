@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+}
+
+.slieshow-container {
+    margin: auto;
+    max-width: 380px;
+    position: relative;
+}
+
+.myslide {
+	display: none;
+}
+
+.prev ,.next {
+	position: absolute;
+	font-size: 1.3rem;
+	padding: 8px 12px;
+	cursor: pointer;
+	user-select: none;
+	font-weight: bold;
+	top: 50%;
+	margin-top: -22px;
+	transition: 0.6 ease;
+}
+
+.prev:hover, .next:hover {
+	color: #fff;
+}
+
+.next {
+	right: 0;
+}
+
+.caption {
+	position: absolute;
+	font-size: 15px;
+	color: #f2f2f2;
+	bottom: 10px;
+	padding: 8px 12px;
+	width: 100%;
+	text-align: center;
+}
+
+.number-text {
+	position: absolute;
+	top: 8px;
+	padding: 8px 12px;
+	color: #f2f2f2;
+}
+
+.btn-dot {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	text-align:center;
+}
+
+.dot {
+	height: 0.3rem;
+	width: 1.7rem;
+	background-color: #ccc;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.active, .dot:hover {
+	background-color: #717171; 
+}
+
+.fade {
+	animation: fade;
+	animation-duration: 1.5s ease;
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
