@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="1.css">
+
+</head>
+<body>
+	<div class="conatainer">
+		<div class="mySlide">
+			<div class="numbertext">1 / 6</div>
+			<img src="../images/img_woods_wide.jpg" style="width: 100%">
+		</div>
+
+		<div class="mySlide">
+			<div class="numbertext">2 / 6</div>
+			<img src="../images/img_5terre_wide.jpg" style="width: 100%">
+		</div>
+
+		<div class="mySlide">
+			<div class="numbertext">3 / 6</div>
+			<img src="../images/img_mountains_wide.jpg" style="width: 100%">
+		</div>
+
+		<div class="mySlide">
+			<div class="numbertext">4 / 6</div>
+			<img src="../images/img_lights_wide.jpg" style="width: 100%">
+		</div>
+
+		<div class="mySlide">
+			<div class="numbertext">5 / 6</div>
+			<img src="../images/img_nature_wide.jpg" style="width: 100%">
+		</div>
+
+		<div class="mySlide">
+			<div class="numbertext">6 / 6</div>
+			<img src="../images/img_snow_wide.jpg" style="width: 100%">
+		</div>
+		
+		<!-- Button prev-next -->
+		<a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlide(1)">&#10095;</a>
+		
+		<!-- Caption text -->
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+		
+		<!-- Slideshow gallery -->
+		<div class="row">
+
+			<div class="col">
+				<img class="demo cursor" src="../images/img_woods_wide.jpg" style="width: 100%" onclick="currentSlide(1)" alt="The Woods">
+			</div>
+
+			<div class="col">
+				<img class="demo cursor" src="../images/img_5terre_wide.jpg" style="width: 100%" onclick="currentSlide(2)" alt="Crique Terre">
+			</div>
+
+			<div class="col">
+				<img class="demo cursor" src="../images/img_mountains_wide.jpg" style="width: 100%" onclick="currentSlide(3)" alt="Mountains and fjorods">
+			</div>
+
+			<div class="col">
+				<img class="demo cursor" src="../images/img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+			</div>
+			<div class="col">
+				<img class="demo cursor" src="../images/img_nature_wide.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+			</div>
+			<div class="col">
+				<img class="demo cursor" src="../images/img_snow_wide.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+		</div>
+	</div>
+</body>
+	<script src="1.js"></script>
+</html>
