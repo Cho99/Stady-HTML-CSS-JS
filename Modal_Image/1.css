@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 }
 
+body {font-family: Arial, Helvetica, sans-serif;}
 
 #myImg {
 	border-radius: 5px;
@@ -27,7 +28,7 @@
 	background-color: rgba(0,0,0,0.9);
 }
 
-.model-content {
+.modal-content {
 	margin: auto;
 	display: block;
 	width: 80%;
@@ -46,13 +47,13 @@
 }
 
 .modal-content, #cation {
-	animation:zoom;
-	animation-duration: 0.9s;
+	animation-name: zoom;
+  animation-duration: 0.6s;
 }
 
-@-webkit-keyframe zoom {
-	from {transform: scale(0);}
-	to {transform: scale(1);}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
 }
 
 .close {
@@ -73,8 +74,8 @@
 	cursor: pointer;
 }
 
-@media only screen and (max-width: 700px) {
-	.model-content  {
-		width: 100%;
-	}
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
 }
