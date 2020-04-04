@@ -9,70 +9,70 @@
 	<h2 style="text-align: center; text-transform: uppercase; width: 100%">lightbox</h2>
 	<div class="row">
 		<div class="col">
-			<img src="../images/img_nature.jpg" style="width: 100%"  class="hover-shadow">
+			<img src="../images/img_nature.jpg" style="width: 100%"  class="hover-shadow" onclick="openModal(); currentSlide(1)">
 		</div>
 
 		<div class="col">
-			<img src="../images/img_snow.jpg" style="width: 100%" class="hover-shadow"> 
+			<img src="../images/img_snow.jpg" style="width: 100%" class="hover-shadow" onclick="openModal(); currentSlide(2)"> 
 		</div>
 
 		<div class="col">
-			<img src="../images/img_mountains.jpg" style="width: 100%" class="hover-shadow">
+			<img src="../images/img_mountains.jpg" style="width: 100%" class="hover-shadow" onclick="openModal(); currentSlide(3)">
 		</div>
 
 		<div class="col">
-			<img src="../images/img_lights.jpg" style="width: 100%" class="hover-shadow">
+			<img src="../images/img_lights.jpg" style="width: 100%" class="hover-shadow" onclick="openModal(); currentSlide(4)">
 		</div>
 	</div> 
 
 	<div id="Modal-box" class="modal">
 		<span class="close cursor" onclick="closeModal()">&times;</span>
 		<div class="modal-content">
-				<div class="mySlide">
-			<span class="numberText">1/4</span>
-			<img src="../images/img_nature_wide.jpg" alt="">
-		</div>
+			<div class="mySlide">
+				<span class="numberText">1/4</span>
+				<img src="../images/img_nature_wide.jpg" alt="" style="width: 100%">
+			</div>
 
-		<div class="mySlide">
-			<span class="numberText">2/4</span>
-			<img src="../images/img_snow_wide.jpg" alt="">
-		</div>
+			<div class="mySlide">
+				<span class="numberText">2/4</span>
+				<img src="../images/img_snow_wide.jpg" alt="" style="width: 100%">
+			</div>
 
-		<div class="mySlide">
-			<span class="numberText">3/4</span>
-			<img src="../images/img_mountains_wide.jpg" alt="">
-		</div>
+			<div class="mySlide">
+				<span class="numberText">3/4</span>
+				<img src="../images/img_mountains_wide.jpg" alt="" style="width: 100%">
+			</div>
 
-		<div class="mySlide">
-			<span class="numberText">4/4</span>
-			<img src="../images/img_lights_wide.jpg" alt="">
-		</div>
+			<div class="mySlide">
+				<span class="numberText">4/4</span>
+				<img src="../images/img_lights_wide.jpg" alt="" style="width: 100%">
+			</div>
 
-		<a class="prev" onclick="plusSlide(-1)">&#10094;</a>
-		<a class="next" onclick="plusSlide(1)">&#10095;</a>
+			<a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlide(1)">&#10095;</a>
 
-		<div class="caption-container">
-			<p id="caption"></p>
-		</div>
+			<div class="caption-container">
+				<p id="caption"></p>
+			</div>
 
-		<div class="col">
-			<img class="demo cursor" src="../images/img_nature_wide.jpg" style="width: 100%" alt="Nature and sunrise" onclick="currentSlide(1)">
-		</div>
+			<div class="col">
+				<img class="alt cursor" alt="Nature and sunrise" src="../images/img_nature_wide.jpg" style="width: 100%"  onclick="currentSlide(1)">
+			</div>
 
-		<div class="col">
-			<img class="demo cursor" src="../images/img_snow_wide.jpg" style="width: 100%" alt="Snow" onclick="currentSlide(2)">
-		</div>
-		
+			<div class="col">
+				<img class="alt cursor" alt="Snow" src="../images/img_snow_wide.jpg" style="width: 100%"  onclick="currentSlide(2)">
+			</div>
+			
 
-		<div class="col">
-			<img class="demo cursor" src="../images/img_mountains_wide.jpg" style="width: 100%"  alt="Mountains" onclick="currentSlide(3)">
-		</div>
+			<div class="col">
+				<img class="alt cursor" src="../images/img_mountains_wide.jpg" alt="Mountains" style="width: 100%"  a onclick="currentSlide(3)">
+			</div>
 
-		<div class="col">
-			<img class="demo cursor" src="../images/img_lights_wide.jpg" style="width: 100%" alt="Mountains" onclick="currentSlide(4)">
+			<div class="col">
+				<img class="alt cursor" alt="Lights" src="../images/img_lights_wide.jpg" style="width: 100%"  onclick="currentSlide(4)">
+			</div>
 		</div>
-		</div>
-
 	</div>
 </body>
+<script src="1.js"></script>
 </html>
