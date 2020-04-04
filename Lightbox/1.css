@@ -3,7 +3,7 @@ root {
 	font-family: monospace ,sans-serif;
 }
 
-.row > .column {
+.row > .col {
   padding: 0 8px;
 }
 
@@ -20,7 +20,7 @@ root {
 
 
 .modal {
-/*  display: none;*/
+  display: none;
 	position: fixed;
 	z-index: 1;
 	padding-top: 100px;
@@ -29,7 +29,7 @@ root {
 	overflow: auto;
 	width: 100%;
 	height: 100%;
-/*	background-color: black;*/
+	background-color: black;
 	
 }
 
@@ -87,4 +87,37 @@ root {
 	color: #ccc;
 }
 
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+	text-align: center;
+	width: 100%;
+	background-color: black;
+	padding: 2px 16px;
+	color: white;
+}
+
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+	opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
