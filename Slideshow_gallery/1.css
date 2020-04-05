@@ -1,7 +1,7 @@
 *{box-sizing: border-box;}
 
 body {
-font-family: Arial;
+font-family: Verdana, sans-serif;
 margin: 0;
 }
 
@@ -45,10 +45,10 @@ img {
 }
 
 .numbertext {
-	position: absolute;
 	color: #f2f2f2;
 	font-size: 1rem;
 	padding: 8px 12px;
+	position: absolute;
 	top: 0;
 }
 

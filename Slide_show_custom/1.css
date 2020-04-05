@@ -2,6 +2,11 @@
 	box-sizing: border-box;
 }
 
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
 .slieshow-container {
     margin: auto;
     max-width: 380px;
